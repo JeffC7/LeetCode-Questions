@@ -13,13 +13,11 @@ class Solution {
         ListNode prev = new ListNode();
         prev = null;
         ListNode current = head;
-        int counter = 0;
         while (current != null) {
             ListNode next = current.next;
             current.next = prev;
             prev = current;
             current = next;
-            counter++;
         }
         return prev;
     }
