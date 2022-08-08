@@ -42,9 +42,6 @@ class Solution {
             }
         }
         
-        if (parentheses.empty()) 
-            return true;
-        else 
-            return false;
+        return parentheses.empty();
     }
 }
