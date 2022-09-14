@@ -13,7 +13,6 @@ class Solution {
                 currentProfit = prices[winEnd] - prices[winStart];
             
             maxProfit = Math.max(maxProfit, currentProfit);
-            System.out.println(maxProfit);
         }
         return maxProfit;
     }
