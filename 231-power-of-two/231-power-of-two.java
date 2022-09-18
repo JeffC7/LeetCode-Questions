@@ -4,7 +4,6 @@ class Solution {
     }
     
     public boolean helper(int n, int i) {
-        // int x = (int)Math.pow(2, i);
         if (Math.pow(2, i) == n) {
             return true;
         }
